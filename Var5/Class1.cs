@@ -5,7 +5,7 @@
         public static int Fact(int A)
         {
             int F = 1;
-            for (int i = 0; i <= A; i++)
+            for (int i = 1; i <= A; i++)
             {
                 F = F * i;
             }
